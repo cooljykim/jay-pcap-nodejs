@@ -1,6 +1,6 @@
-## Jay's PCAP Sandbox
+# Jay's PCAP Sandbox
 
-### Parsing using Copilot AI - try 1
+## Parsing using Copilot AI - try 1
 
 My question:
 
@@ -107,7 +107,7 @@ node parse-pcap.js
 
 The script successfully parsed 200,000 flows from the file. If you need modifications (e.g., filtering, different output format, or handling other NetFlow versions), let me know!
 
-### Parsing using Google search AI - try 2
+## Parsing using Google search AI - try 2
 
 My search sentence:
 
@@ -161,7 +161,7 @@ parser.on('error', (err) => {
 });
 ```
 
-### Parsing using Google search AI - try 3
+## Parsing using Google search AI - try 3
 
 My question:
 
@@ -253,7 +253,7 @@ Google search says:
 The "unknown magic number: 0005001e" error indicates the parser expects a standard .pcap file but is receiving a different format, likely a .pcapng (Pcap Next Generation) file, a corrupted capture, or a raw hex dump. Convert the file to legacy pcap format using Wireshark/tshark (-F libpcap) or use a parser that supports pcapng.
 ```
 
-### Parsing using Copilot AI - try 4
+## Parsing using Copilot AI - try 4
 
 I copied the TypeScript that was generated in the Next.js project. (and, fixed it to output a JSON file).
 
@@ -280,7 +280,7 @@ Error parsing PCAP: Error: unknown magic number: 0005001e
 
 ```
 
-### Parsing using Wireshark - try 5
+## Parsing using Wireshark - try 5
 
 So, I Googled again:
 
