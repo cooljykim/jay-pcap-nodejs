@@ -1,0 +1,17 @@
+{
+  "name": "jay-pcap",
+  "version": "1.0.0",
+  "description": "Jay tries pcap",
+  "license": "ISC",
+  "author": "Jay Kim",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cap": "^0.2.1",
+    "pcap": "^3.1.0",
+    "pcap-parser": "^0.2.1"
+  }
+}
